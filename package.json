@@ -29,6 +29,6 @@
     "typescript": "5.3.3"
   },
   "dependencies": {
-    "orgnote-api": "0.0.9"
+    "orgnote-api": "0.0.12"
   }
 }

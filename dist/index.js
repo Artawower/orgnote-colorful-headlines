@@ -1,8 +1,5 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.manifest = void 0;
 const packageName = 'colorful-headlines';
-exports.default = {
+export default {
     onMounted: async (api) => {
         api.ui.applyStyles(packageName, `
 .org-headline-1 {
@@ -32,7 +29,7 @@ exports.default = {
         api.ui.removeStyles(packageName);
     }
 };
-exports.manifest = {
+export const manifest = {
     name: 'Colorful Headlines',
     description: 'Colorful headlines for your notes',
     version: '0.0.1',

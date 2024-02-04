@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "./",
     "rootDir": "src",
-    "module": "commonjs",
+    "module": "es2015",
     "target": "es2022",
     "lib": ["es2022", "dom"],
     "outDir": "dist",
